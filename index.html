@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Terminal Header -->
+    <div class="terminal-header">
+        <div class="terminal-buttons">
+            <span class="terminal-btn close"></span>
+            <span class="terminal-btn minimize"></span>
+            <span class="terminal-btn maximize"></span>
+        </div>
+        <div class="terminal-title">pratik@portfolio:~$</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="code-symbol">&lt;</span>
+                Pratik Arjun More
+                <span class="code-symbol">/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="typing-container">
+                    <span class="typing-text">Hello, I'm Pratik Arjun More</span>
+                    <span class="cursor">|</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="code-keyword">const</span> 
+                    <span class="code-variable">developer</span> = {
+                    <br>&nbsp;&nbsp;<span class="code-property">name</span>: <span class="code-string">"Pratik Arjun More"</span>,
+                    <br>&nbsp;&nbsp;<span class="code-property">role</span>: <span class="code-string">"PHP Full Stack Developer"</span>,
+                    <br>&nbsp;&nbsp;<span class="code-property">passion</span>: <span class="code-string">"Building scalable web applications"</span>
+                    <br>};
+                </h1>
+                <p class="hero-subtitle">Passionate developer crafting robust and efficient web solutions</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-editor">
+                    <div class="editor-header">
+                        <div class="editor-buttons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="editor-title">portfolio.js</div>
+                    </div>
+                    <div class="editor-content">
+                        <div class="line-numbers">
+                            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+                            <span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                        </div>
+                        <div class="code-lines">
+                            <div class="code-line"><span class="keyword">class</span> <span class="class-name">Portfolio</span> {</div>
+                            <div class="code-line">&nbsp;&nbsp;<span class="method">constructor</span>() {</div>
+                            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">this</span>.<span class="property">name</span> = <span class="string">"Pratik"</span>;</div>
+                            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">this</span>.<span class="property">skills</span> = [<span class="string">"JavaScript"</span>, <span class="string">"React"</span>, <span class="string">"Node.js"</span>];</div>
+                            <div class="code-line">&nbsp;&nbsp;}</div>
+                            <div class="code-line">&nbsp;&nbsp;<span class="method">createMagic</span>() {</div>
+                            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="string">"Amazing experiences!"</span>;</div>
+                            <div class="code-line">&nbsp;&nbsp;}</div>
+                            <div class="code-line">}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-comment">// About Me</span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate PHP Full Stack Developer with expertise in Laravel, Vue.js, and modern web technologies. 
+                        With experience in both development and DevOps, I specialize in building scalable applications 
+                        and implementing real-time features. I love turning complex problems into elegant solutions.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="2">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="5">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-label">Live Projects</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <img src="asset/img/pratik.jpeg" alt="Pratik Arjun More" class="profile-image">
+                        </div>
+                        <div class="profile-info">
+                            <h3>Pratik Arjun More</h3>
+                            <p>PHP Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-comment">// Professional Experience</span>
+            </h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Backend Developer</h3>
+                            <div class="experience-company">Attivbits Pvt Ltd</div>
+                            <div class="experience-duration">03/2024 - Present</div>
+                            <div class="experience-location">MP, India</div>
+                        </div>
+                        <p class="experience-description">
+                            Working on a social media platform with focus on real-time features and scalable architecture.
+                        </p>
+                        <ul class="experience-achievements">
+                            <li>Implemented Socket.io to enable real-time messaging between users, ensuring fast, reliable, and scalable chat functionality</li>
+                            <li>Containerized the application using Docker, optimizing deployment workflows and ensuring smooth scaling across different environments</li>
+                            <li>Configured Nginx as a reverse proxy and load balancer, efficiently managing traffic and requests</li>
+                            <li>Integrated Kafka for real-time data streaming and event handling, supporting event-driven architecture for better system performance</li>
+                            <li>Employed Redis for caching and session management, improving system performance and reducing database load</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Nginx</span>
+                            <span class="tech-tag">Kafka</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Junior Developer - Intern</h3>
+                            <div class="experience-company">Sterling System Pvt Limited</div>
+                            <div class="experience-duration">03/2023 - 10/2023</div>
+                            <div class="experience-location">Pune, India</div>
+                        </div>
+                        <p class="experience-description">
+                            Developed and maintained efficient, reusable, and reliable code using Laravel framework.
+                        </p>
+                        <ul class="experience-achievements">
+                            <li>Developed and maintained efficient, reusable, and reliable code using Laravel</li>
+                            <li>Knowledge of front-end frameworks like Vue.js</li>
+                            <li>Proficiency in PHP, MySQL, HTML, CSS, JavaScript, and related web technologies</li>
+                            <li>Strong understanding of the Laravel framework and its ecosystem</li>
+                            <li>Worked on 3 live projects in the company</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-comment">// Skills & Technologies</span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="HTML5">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item" data-skill="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item" data-skill="JavaScript">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item" data-skill="Vue.js">
+                            <i class="fab fa-vuejs"></i>
+                            <span>Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="PHP">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item" data-skill="Laravel">
+                            <i class="fas fa-fire"></i>
+                            <span>Laravel</span>
+                        </div>
+                        <div class="skill-item" data-skill="MySQL">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item" data-skill="Socket.io">
+                            <i class="fas fa-bolt"></i>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">DevOps & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Docker">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item" data-skill="Nginx">
+                            <i class="fas fa-server"></i>
+                            <span>Nginx</span>
+                        </div>
+                        <div class="skill-item" data-skill="Redis">
+                            <i class="fas fa-memory"></i>
+                            <span>Redis</span>
+                        </div>
+                        <div class="skill-item" data-skill="Kafka">
+                            <i class="fas fa-stream"></i>
+                            <span>Kafka</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-comment">// Featured Projects</span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Social Media Platform</h3>
+                        <p class="project-description">
+                            A comprehensive social media platform with real-time messaging using Socket.io, 
+                            containerized with Docker, and optimized with Redis caching and Kafka streaming.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Courier Management System</h3>
+                        <p class="project-description">
+                            A web-based courier management system allowing users to add items for courier, 
+                            track delivery status, and admin authority to manage shipments efficiently.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Yashaswini Awards Platform</h3>
+                        <p class="project-description">
+                            A centralized platform for managing and facilitating various award programs, 
+                            serving as a versatile solution for organizations to track and manage awards/recognitions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-comment">// Get In Touch</span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>pratikmore1717@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 7558285177</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Pune, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                            <div class="footer-logo">
+                <span class="code-symbol">&lt;</span>
+                Pratik Arjun More
+                <span class="code-symbol">/&gt;</span>
+            </div>
+                <div class="social-links">
+                    <a href="https://github.com/Pratikmore12" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/pratikamore" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Pratik. All rights reserved. Built with ❤️ and ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
